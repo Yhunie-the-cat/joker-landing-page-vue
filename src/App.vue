@@ -1,28 +1,57 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+   <div id="app">
+      <Navbar />
+      <TextContent />
+      <Sidebar />
+      <Socialbar />
+      <Trailers />
+      <Background />
+   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+   import Navbar from "./components/Navbar.vue";
+   import TextContent from "./components/TextContent.vue";
+   import Sidebar from "./components/Sidebar";
+   import Socialbar from "./components/Socialbar";
+   import Trailers from "./components/Trailers";
+   import Background from "./components/Background.vue";
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+   export default {
+      name: "App",
+      components: {
+         Navbar,
+         TextContent,
+         Sidebar,
+         Socialbar,
+         Trailers,
+         Background,
+      },
+   };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+   }
+
+   html {
+      font-size: 16px;
+      overflow: hidden;
+   }
+
+   @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
+   @import url("https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap");
+   @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+   #app {
+      font-family: Nanum Gothic, Inter, Monda, Avenir, Helvetica, Arial,
+         sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      color: #2c3e50;
+   }
 </style>
