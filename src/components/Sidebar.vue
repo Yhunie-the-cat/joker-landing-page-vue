@@ -13,7 +13,7 @@
    };
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
    #page-lines-container {
       width: fit-content;
       height: 58px;

@@ -34,7 +34,7 @@
    };
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
    #trailers-container {
       z-index: 6;
       position: absolute;

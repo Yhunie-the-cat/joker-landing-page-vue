@@ -12,7 +12,7 @@
    };
 </script>
 
-<style lang="scss" scope>
+<style lang="scss" scoped>
    #social-container {
       position: absolute;
       height: 180px;
