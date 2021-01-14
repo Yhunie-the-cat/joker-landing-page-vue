@@ -1,8 +1,26 @@
 <template>
    <div id="social-container">
-      <img src="./../assets/facebook.png" alt="facebook" />
-      <img src="./../assets/instagram.png" alt="instagram" />
-      <img src="./../assets/twitter.png" alt="twitter" />
+      <a
+         href="https://www.facebook.com/jokermovie/"
+         target="_blank"
+         rel="noopener noreferrer"
+      >
+         <img src="./../assets/facebook.png" alt="facebook" />
+      </a>
+      <a
+         href="https://www.instagram.com/jokermovie/"
+         target="_blank"
+         rel="noopener noreferrer"
+      >
+         <img src="./../assets/instagram.png" alt="instagram" />
+      </a>
+      <a
+         href="https://twitter.com/jokermovie"
+         target="_blank"
+         rel="noopener noreferrer"
+      >
+         <img src="./../assets/twitter.png" alt="twitter" />
+      </a>
    </div>
 </template>
 
