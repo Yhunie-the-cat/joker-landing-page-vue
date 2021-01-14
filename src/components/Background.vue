@@ -27,7 +27,7 @@
       background-size: cover;
       background-position: 80% 40%;
    }
-   @media (max-width: 886px) {
+   @media (max-width: 768px) {
       #frame {
          display: none;
       }

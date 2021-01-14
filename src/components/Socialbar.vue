@@ -18,23 +18,21 @@
       height: 180px;
       top: 0;
       bottom: 0;
-      right: 80px;
+      right: 40px;
       margin: auto;
       z-index: 5;
       display: flex;
       flex-direction: column;
       img {
-         width: 20px;
-         height: 20px;
+         width: 15px;
+         height: 15px;
          margin: 20px 0;
          cursor: pointer;
       }
    }
-   @media (max-width: 886px) {
+   @media screen and (max-width: 425px) {
       #social-container {
          right: 20px;
-         top: 145px;
-         bottom: initial;
       }
    }
 </style>

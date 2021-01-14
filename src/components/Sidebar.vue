@@ -18,21 +18,21 @@
       width: fit-content;
       height: 58px;
       position: absolute;
-      left: 80px;
+      left: 40px;
       top: 0;
       bottom: 0;
       margin: auto;
       .line {
          width: 10px;
          height: 2px;
-         margin: 10px 0;
+         margin: 20px 0;
          background-color: #fff;
       }
       .active {
          background-color: #e52e3e !important;
       }
    }
-   @media (max-width: 886px) {
+   @media screen and (max-width: 425px) {
       #page-lines-container {
          left: 20px;
       }

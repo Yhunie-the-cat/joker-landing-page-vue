@@ -1,31 +1,25 @@
 <template>
-   <section id="trailers-container">
+   <div id="covers">
       <div>
          <p>Final trailer</p>
-         <video
-            src="https://www.youtube.com/watch?v=zAGVQLHvwOY"
-            type="video/mp4"
-            poster="./../assets/joker-final-thumbnail.jpg"
-            preload="metadata"
-            controlsList="nodownload"
-            muted
-            loop
-         ></video>
+         <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+            <img
+               src="./../assets/joker-final-thumbnail.jpg"
+               alt="final-trailer-cover"
+            />
+         </a>
       </div>
 
       <div>
-         <p>Final trailer</p>
-         <video
-            src="https://www.youtube.com/watch?v=zAGVQLHvwOY"
-            type="video/mp4"
-            poster="./../assets/joker-teaser-thumbnail.jpg"
-            preload="metadata"
-            controlsList="nodownload"
-            muted
-            loop
-         ></video>
+         <p>Teaser trailer</p>
+         <a href="https://www.youtube.com/watch?v=t433PEQGErc" target="_blank">
+            <img
+               src="./../assets/joker-teaser-thumbnail.jpg"
+               alt="teaser-trailer-cover"
+            />
+         </a>
       </div>
-   </section>
+   </div>
 </template>
 
 <script>
@@ -35,50 +29,63 @@
 </script>
 
 <style lang="scss" scoped>
-   #trailers-container {
-      z-index: 6;
-      position: absolute;
-      width: 640px;
-      height: 140px;
-      bottom: 60px;
-      left: 15%;
+   #covers {
+      width: fit-content;
       display: flex;
-      justify-content: space-between;
-
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      z-index: 10;
       div {
          width: 300px;
 
          p {
-            font-family: Nanum Gothic, Malgun;
+            font-family: Inter, Malgun;
             font-size: 1rem;
-            font-weight: 600;
-            color: #5e5e5e;
+            font-weight: 400;
+            color: white;
             float: right;
             margin-bottom: 5px;
          }
-
-         video {
-            width: 300px;
+         img {
+            width: 100%;
             height: 80px;
             object-fit: cover;
             pointer-events: visible;
             cursor: pointer;
          }
       }
+      div:first-child {
+         margin-right: 40px;
+      }
    }
-   @media (max-width: 886px) {
-      #trailers-container {
-         flex-direction: column;
-         width: fit-content;
-         height: fit-content;
-         bottom: 200px;
 
-         div {
-            margin: 20px 0;
-            p {
-               color: white;
-            }
+   @media screen and (max-width: 1024px) {
+      #covers div {
+         width: 200px;
+         img {
+            height: 60px;
          }
+      }
+   }
+
+   @media screen and (max-width: 768px) {
+      #covers {
+         bottom: 100px;
+         left: 0;
+         right: 0;
+         margin: auto;
+         div {
+            width: 160px;
+         }
+         div:first-child {
+            margin-right: 20px;
+         }
+      }
+   }
+   @media screen and (max-width: 425px) {
+      #covers div {
+         width: 40vmin;
       }
    }
 </style>

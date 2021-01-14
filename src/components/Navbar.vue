@@ -5,7 +5,12 @@
          <div class="line-2"></div>
       </div>
       <h3>Joker</h3>
-      <button>TICKETS</button>
+      <a
+         href="https://www.hulu.com/movie/joker-49d3d249-a81b-4606-a37c-c7249f9b2ce0"
+         target="_blank"
+      >
+         <button>WATCH</button>
+      </a>
    </header>
 </template>
 
@@ -20,7 +25,7 @@
       width: 100%;
       height: 40px;
       position: absolute;
-      top: 60px;
+      top: 40px;
       display: flex;
       align-items: center;
 
@@ -31,7 +36,7 @@
          flex-direction: column;
          justify-content: space-between;
          position: absolute;
-         left: 80px;
+         left: 40px;
          z-index: 2;
          cursor: pointer;
 
@@ -50,8 +55,9 @@
 
       h3 {
          width: fit-content;
-         font-family: Inter;
-         font-size: 2.8rem;
+         font-family: Monda;
+         font-size: 1.6rem;
+         font-size: 1.6rem;
          color: #fff;
          user-select: none;
          position: absolute;
@@ -61,34 +67,30 @@
       }
 
       button {
-         width: 140px;
+         width: 120px;
          height: 40px;
          border: 2px solid #e52e3e;
          outline: none;
          font-family: Inter, Malgun;
-         font-size: 1.4rem;
+         font-size: 1rem;
          color: #fff;
          cursor: pointer;
          z-index: 5;
          position: absolute;
          background-color: transparent;
-         right: 80px;
+         right: 40px;
       }
    }
-   @media (max-width: 886px) {
-      header {
-         top: 20px;
 
+   @media screen and (max-width: 425px) {
+      header {
          .menu {
             left: 20px;
          }
-         h3 {
-            font-size: 2rem;
-         }
+
          button {
-            width: 120px;
-            border-radius: 20px;
-            font-size: 1.2rem;
+            width: 80px;
+            border-radius: 40px;
             right: 20px;
          }
       }
