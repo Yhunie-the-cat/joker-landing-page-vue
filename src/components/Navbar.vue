@@ -8,6 +8,7 @@
       <a
          href="https://www.hulu.com/movie/joker-49d3d249-a81b-4606-a37c-c7249f9b2ce0"
          target="_blank"
+         rel="noopener noreferrer"
       >
          <button>WATCH</button>
       </a>

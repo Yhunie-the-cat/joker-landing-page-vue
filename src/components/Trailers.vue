@@ -2,7 +2,11 @@
    <div id="covers">
       <div>
          <p>Final trailer</p>
-         <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+         <a
+            href="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+            target="_blank"
+            rel="noopener noreferrer"
+         >
             <img
                src="./../assets/joker-final-thumbnail.jpg"
                alt="final-trailer-cover"
@@ -12,7 +16,11 @@
 
       <div>
          <p>Teaser trailer</p>
-         <a href="https://www.youtube.com/watch?v=t433PEQGErc" target="_blank">
+         <a
+            href="https://www.youtube.com/watch?v=t433PEQGErc"
+            target="_blank"
+            rel="noopener noreferrer"
+         >
             <img
                src="./../assets/joker-teaser-thumbnail.jpg"
                alt="teaser-trailer-cover"
