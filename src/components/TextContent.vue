@@ -32,14 +32,15 @@
 
    #big-title {
       width: 100%;
-      height: fit-content;
+      height: 30vw;
       position: absolute;
       top: 0;
       bottom: 0;
       margin: auto;
       z-index: 1;
       font-family: Monda, sans-serif;
-      font-size: 30vmax;
+      font-size: 30vw;
+      line-height: 1;
       color: transparent;
       overflow: hidden;
       -webkit-text-stroke-width: 1px;
@@ -133,28 +134,20 @@
          margin: 0 10px;
       }
    }
+
    #cinema-date:first-child {
       color: #5e5e5e;
    }
-   @media screen and (max-width: 1024px) {
-      #big-title {
-         font-size: 25vmax;
-      }
-   }
+
    @media screen and (max-width: 768px) {
-      #big-title {
-         font-size: 25vmin;
-      }
       #quote {
          left: 0;
          right: 0;
          margin: auto;
       }
    }
+
    @media screen and (max-width: 425px) {
-      #big-title {
-         font-size: 10vmax;
-      }
       #support {
          top: 300px;
       }
