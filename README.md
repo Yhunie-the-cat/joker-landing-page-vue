@@ -1,10 +1,12 @@
 # Joker landing page
 
-Re-created [Joker](https://dribbble.com/shots/7481309-JOKER-59-Shots-for-Practice) design from scratch, using Photoshop, Adobe XD and Vue.
+Re-created [Joker](https://dribbble.com/shots/7481309-JOKER-59-Shots-for-Practice) design from scratch with Vue.
 
 ## Project setup
 
 ```
+git clone "repository url"
+cd "repository folder"
 npm install
 ```
 
